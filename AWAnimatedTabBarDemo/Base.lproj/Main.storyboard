@@ -67,9 +67,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="21d-Tc-Sg2" customClass="AWTabBarItem"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="Setting000" id="21d-Tc-Sg2" customClass="AWTabBarItem">
+                        <connections>
+                            <outlet property="animation" destination="dSg-Pg-mHn" id="opW-g4-OS2"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTX-2q-D11" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="dSg-Pg-mHn" customClass="AWFrameItemAnimation">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imagesPath" value="SettingAnimation"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isDeselectAnimation" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="712" y="317"/>
         </scene>
@@ -94,6 +104,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Setting000" width="30" height="30"/>
         <image name="Tools_00028" width="30" height="30"/>
     </resources>
 </document>

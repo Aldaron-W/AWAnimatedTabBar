@@ -20,6 +20,7 @@
 		33F077151A58EE0C002F14CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F077141A58EE0C002F14CB /* Images.xcassets */; };
 		33F077181A58EE0C002F14CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F077161A58EE0C002F14CB /* LaunchScreen.xib */; };
 		33F077241A58EE0C002F14CB /* AWAnimatedTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F077231A58EE0C002F14CB /* AWAnimatedTabBarDemoTests.m */; };
+		33F4F8311A5AA12600EEDDE2 /* SettingAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33F4F8301A5AA12600EEDDE2 /* SettingAnimation.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		33F0771D1A58EE0C002F14CB /* AWAnimatedTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWAnimatedTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F077221A58EE0C002F14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F077231A58EE0C002F14CB /* AWAnimatedTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAnimatedTabBarDemoTests.m; sourceTree = "<group>"; };
+		33F4F8301A5AA12600EEDDE2 /* SettingAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingAnimation.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				33F077141A58EE0C002F14CB /* Images.xcassets */,
 				33F077161A58EE0C002F14CB /* LaunchScreen.xib */,
 				33F077041A58EE0C002F14CB /* Supporting Files */,
+				33F4F8301A5AA12600EEDDE2 /* SettingAnimation.plist */,
 			);
 			path = AWAnimatedTabBarDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				33F077131A58EE0C002F14CB /* Main.storyboard in Resources */,
 				33F077181A58EE0C002F14CB /* LaunchScreen.xib in Resources */,
+				33F4F8311A5AA12600EEDDE2 /* SettingAnimation.plist in Resources */,
 				33F077151A58EE0C002F14CB /* Images.xcassets in Resources */,
 				33A6B5131A5942D70024C3B1 /* ToolsAnimation.plist in Resources */,
 			);

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>images</key>
+	<array>
+		<string>Setting000</string>
+		<string>Setting001</string>
+		<string>Setting002</string>
+		<string>Setting003</string>
+		<string>Setting004</string>
+		<string>Setting005</string>
+		<string>Setting006</string>
+		<string>Setting007</string>
+		<string>Setting008</string>
+		<string>Setting009</string>
+		<string>Setting010</string>
+		<string>Setting011</string>
+		<string>Setting012</string>
+		<string>Setting013</string>
+		<string>Setting014</string>
+		<string>Setting015</string>
+		<string>Setting016</string>
+	</array>
+</dict>
+</plist>
