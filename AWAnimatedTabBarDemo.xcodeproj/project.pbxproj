@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A6B50A1A592BF20024C3B1 /* AWItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6B5091A592BF20024C3B1 /* AWItemAnimation.m */; };
+		33A6B50D1A5935E40024C3B1 /* AWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6B50C1A5935E40024C3B1 /* AWTabBarItem.m */; };
+		33A6B5111A5936D90024C3B1 /* AWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6B5101A5936D90024C3B1 /* AWTabBarController.m */; };
+		33A6B5131A5942D70024C3B1 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33A6B5121A5942D70024C3B1 /* ToolsAnimation.plist */; };
+		33A6B5161A5956500024C3B1 /* AWFrameItemAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6B5151A5956500024C3B1 /* AWFrameItemAnimation.m */; };
 		33F077071A58EE0C002F14CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F077061A58EE0C002F14CB /* main.m */; };
 		33F0770A1A58EE0C002F14CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F077091A58EE0C002F14CB /* AppDelegate.m */; };
 		33F0770D1A58EE0C002F14CB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F0770C1A58EE0C002F14CB /* FirstViewController.m */; };
@@ -28,6 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33A6B5081A592BF20024C3B1 /* AWItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWItemAnimation.h; path = AWAnimatedTabBar/AWItemAnimation.h; sourceTree = SOURCE_ROOT; };
+		33A6B5091A592BF20024C3B1 /* AWItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWItemAnimation.m; path = AWAnimatedTabBar/AWItemAnimation.m; sourceTree = SOURCE_ROOT; };
+		33A6B50B1A5935E40024C3B1 /* AWTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTabBarItem.h; path = AWAnimatedTabBar/UI/AWTabBarItem.h; sourceTree = SOURCE_ROOT; };
+		33A6B50C1A5935E40024C3B1 /* AWTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTabBarItem.m; path = AWAnimatedTabBar/UI/AWTabBarItem.m; sourceTree = SOURCE_ROOT; };
+		33A6B50F1A5936D90024C3B1 /* AWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTabBarController.h; path = AWAnimatedTabBar/UI/AWTabBarController.h; sourceTree = SOURCE_ROOT; };
+		33A6B5101A5936D90024C3B1 /* AWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTabBarController.m; path = AWAnimatedTabBar/UI/AWTabBarController.m; sourceTree = SOURCE_ROOT; };
+		33A6B5121A5942D70024C3B1 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		33A6B5141A5956500024C3B1 /* AWFrameItemAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWFrameItemAnimation.h; path = AWAnimatedTabBar/Animation/AWFrameItemAnimation/AWFrameItemAnimation.h; sourceTree = SOURCE_ROOT; };
+		33A6B5151A5956500024C3B1 /* AWFrameItemAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWFrameItemAnimation.m; path = AWAnimatedTabBar/Animation/AWFrameItemAnimation/AWFrameItemAnimation.m; sourceTree = SOURCE_ROOT; };
 		33F077011A58EE0C002F14CB /* AWAnimatedTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWAnimatedTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F077051A58EE0C002F14CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33F077061A58EE0C002F14CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +77,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A6B5071A592B950024C3B1 /* AWAnimatedTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				33A6B5081A592BF20024C3B1 /* AWItemAnimation.h */,
+				33A6B5091A592BF20024C3B1 /* AWItemAnimation.m */,
+				33A6B50E1A5935E90024C3B1 /* UI */,
+				33A6B5171A5956570024C3B1 /* Animation */,
+			);
+			name = AWAnimatedTabBar;
+			sourceTree = "<group>";
+		};
+		33A6B50E1A5935E90024C3B1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				33A6B50B1A5935E40024C3B1 /* AWTabBarItem.h */,
+				33A6B50C1A5935E40024C3B1 /* AWTabBarItem.m */,
+				33A6B50F1A5936D90024C3B1 /* AWTabBarController.h */,
+				33A6B5101A5936D90024C3B1 /* AWTabBarController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		33A6B5171A5956570024C3B1 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				33A6B5181A59565E0024C3B1 /* AWFrameItemAnimation */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		33A6B5181A59565E0024C3B1 /* AWFrameItemAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				33A6B5141A5956500024C3B1 /* AWFrameItemAnimation.h */,
+				33A6B5151A5956500024C3B1 /* AWFrameItemAnimation.m */,
+			);
+			name = AWFrameItemAnimation;
+			sourceTree = "<group>";
+		};
 		33F076F81A58EE0C002F14CB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +137,8 @@
 		33F077031A58EE0C002F14CB /* AWAnimatedTabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33A6B5121A5942D70024C3B1 /* ToolsAnimation.plist */,
+				33A6B5071A592B950024C3B1 /* AWAnimatedTabBar */,
 				33F077081A58EE0C002F14CB /* AppDelegate.h */,
 				33F077091A58EE0C002F14CB /* AppDelegate.m */,
 				33F0770B1A58EE0C002F14CB /* FirstViewController.h */,
@@ -207,6 +262,7 @@
 				33F077131A58EE0C002F14CB /* Main.storyboard in Resources */,
 				33F077181A58EE0C002F14CB /* LaunchScreen.xib in Resources */,
 				33F077151A58EE0C002F14CB /* Images.xcassets in Resources */,
+				33A6B5131A5942D70024C3B1 /* ToolsAnimation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +282,12 @@
 			files = (
 				33F077101A58EE0C002F14CB /* SecondViewController.m in Sources */,
 				33F0770A1A58EE0C002F14CB /* AppDelegate.m in Sources */,
+				33A6B5111A5936D90024C3B1 /* AWTabBarController.m in Sources */,
+				33A6B5161A5956500024C3B1 /* AWFrameItemAnimation.m in Sources */,
 				33F0770D1A58EE0C002F14CB /* FirstViewController.m in Sources */,
+				33A6B50A1A592BF20024C3B1 /* AWItemAnimation.m in Sources */,
 				33F077071A58EE0C002F14CB /* main.m in Sources */,
+				33A6B50D1A5935E40024C3B1 /* AWTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +480,7 @@
 				33F077291A58EE0C002F14CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33F0772A1A58EE0C002F14CB /* Build configuration list for PBXNativeTarget "AWAnimatedTabBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +489,7 @@
 				33F0772C1A58EE0C002F14CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
