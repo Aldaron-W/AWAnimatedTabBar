@@ -38,7 +38,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="Tools_00028" id="acW-dT-cKf" customClass="AWTabBarItem">
+                    <tabBarItem key="tabBarItem" title="First" image="Setting000" id="acW-dT-cKf" customClass="AWTabBarItem">
                         <connections>
                             <outlet property="animation" destination="uFH-jN-LwZ" id="x8l-yD-Sp6"/>
                         </connections>
@@ -47,7 +47,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
                 <customObject id="uFH-jN-LwZ" customClass="AWFrameItemAnimation">
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="imagesPath" value="ToolsAnimation"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="imagesPath" value="SettingAnimation"/>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isDeselectAnimation" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </customObject>
@@ -105,6 +105,5 @@
     </scenes>
     <resources>
         <image name="Setting000" width="30" height="30"/>
-        <image name="Tools_00028" width="30" height="30"/>
     </resources>
 </document>
